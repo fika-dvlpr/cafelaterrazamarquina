@@ -17,7 +17,7 @@ img {
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 /* NAVIGATION BAR */
@@ -358,6 +358,9 @@ footer {
 }
 
 @media (max-width: 768px) {
+  .footer-social-media svg:hover {
+    transform: none;
+  }
   .footer-column h1 {
     font-size: 14px;
   }
@@ -413,7 +416,7 @@ footer {
     display: none;
   }
   header {
-    padding: 0 4rem;
+    padding: 0 3rem;
     transition: 0.5s;
   }
 }
