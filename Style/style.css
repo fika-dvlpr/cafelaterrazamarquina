@@ -639,7 +639,7 @@ footer {
     display: none;
   }
   header {
-    padding: 0 4rem;
+    padding: 0 3rem;
     transition: 0.5s;
   }
 }
@@ -724,6 +724,9 @@ footer {
 
 /* TABLET */
 @media (max-width: 768px) {
+  .footer-social-media svg:hover {
+    transform: none;
+  }
   .box-container {
     padding-top: 5rem;
   }
@@ -766,10 +769,16 @@ footer {
     transition: 0.5s;
     margin-top: 2rem;
   }
-
+  .card-image:hover img,
+  .card-image-2:hover img {
+    transform: none;
+  }
   .customer-1 {
     width: 300px;
     height: 120px;
+  }
+  .customer-1:hover {
+    transform: none;
   }
   .customer-img-name img {
     width: 40px;
@@ -825,7 +834,7 @@ footer {
     margin-top: 40px;
   }
   .home {
-    padding: 0 4rem;
+    padding: 0 3rem;
   }
   .customer-1 {
     width: 280px;
