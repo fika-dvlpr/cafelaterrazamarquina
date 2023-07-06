@@ -17,6 +17,21 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+/* TOP */
+marquee {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 100%;
+  background-color: #402218;
+  color: #f8f4ea;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 2px;
+}
+
 /* NAVIGATION BAR */
 header {
   display: flex;
@@ -27,15 +42,30 @@ header {
   padding: 0 7.5rem;
   z-index: 101;
   height: 60px;
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
   border-bottom: 1px solid gray;
+  margin-top: 20px;
 }
 
 .logo {
-  width: 65px;
-  height: 65px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.logo img {
+  width: 70px;
+  height: 70px;
+}
+
+.logo h1 {
+  font-size: 12px;
+  width: 132px;
+  color: #402218;
+  letter-spacing: 2px;
+  font-weight: 500;
 }
 .nav-link img {
   width: 30px;
@@ -104,6 +134,7 @@ header {
     align-items: center;
     justify-content: center;
     z-index: 100;
+    margin-top: 20px;
   }
 
   .nav-link li {
@@ -132,7 +163,6 @@ header {
 main {
   background-color: #fff;
   padding: 3rem 7.5rem;
-  margin-top: 60px;
   height: 100%;
   width: 100%;
 }
@@ -314,6 +344,9 @@ footer {
 }
 
 @media (max-width: 900px) {
+  .logo h1 {
+    display: none;
+  }
   .footer-column p {
     font-size: 12px;
   }
@@ -335,6 +368,14 @@ footer {
 }
 
 @media (max-width: 768px) {
+  marquee {
+    font-size: 10px;
+  }
+  .logo h1 {
+    display: block;
+    font-size: 10px;
+    width: 125px;
+  }
   .footer-column h1 {
     font-size: 14px;
   }
@@ -535,7 +576,7 @@ footer {
     margin-bottom: 0;
   }
   .main-title span {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
   .google-maps iframe {
     height: 400px;
@@ -545,9 +586,6 @@ footer {
 @media (max-width: 544px) {
   main {
     padding: 3rem 4rem;
-  }
-  .main-title h1 {
-    font-size: 1rem;
   }
   .main-left,
   .main-right {
