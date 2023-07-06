@@ -14,7 +14,7 @@ img {
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 /* NAVIGATION BAR */
@@ -148,6 +148,7 @@ main {
 .main-title span {
   font-size: 1rem;
   font-weight: 100;
+  font-family: cursive;
 }
 
 .main-content {
@@ -389,7 +390,7 @@ footer {
     display: none;
   }
   header {
-    padding: 0 4rem;
+    padding: 0 3rem;
     transition: 0.5s;
   }
 }
@@ -509,6 +510,9 @@ footer {
 
 /* TABLET */
 @media (max-width: 768px) {
+  .footer-social-media svg:hover {
+    transform: none;
+  }
   .main-content {
     grid-template-columns: 1fr;
     height: auto;
