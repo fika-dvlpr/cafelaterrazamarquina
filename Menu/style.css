@@ -16,7 +16,7 @@ section {
   padding: 7rem 7.5rem;
 }
 body {
-  font-family: Arial;
+  font-family: "Roboto", sans-serif;
 }
 
 /* NAVIGATION BAR */
@@ -290,7 +290,7 @@ main {
   position: absolute;
   font-size: 9px;
   top: 38px;
-  left: 124px;
+  left: 128px;
   letter-spacing: 1px;
 }
 .grande-fb {
@@ -564,7 +564,7 @@ footer {
     font-size: 8px;
   }
   .soda-base-drinks {
-    left: 132px;
+    left: 134px;
   }
 }
 
@@ -595,7 +595,7 @@ footer {
     right: 42px;
   }
   .soda-base-drinks {
-    left: 83px;
+    left: 86px;
     top: 18px;
   }
   .grande-fb {
