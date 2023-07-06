@@ -19,6 +19,20 @@ img {
 body {
   font-family: "Roboto", sans-serif;
 }
+/* TOP */
+marquee {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 100%;
+  background-color: #402218;
+  color: #f8f4ea;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 2px;
+}
 
 /* NAVIGATION BAR */
 header {
@@ -30,15 +44,30 @@ header {
   padding: 0 7.5rem;
   z-index: 101;
   height: 60px;
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
   border-bottom: 1px solid gray;
+  margin-top: 20px;
 }
 
 .logo {
-  width: 65px;
-  height: 65px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.logo img {
+  width: 70px;
+  height: 70px;
+}
+
+.logo h1 {
+  font-size: 12px;
+  width: 132px;
+  color: #402218;
+  letter-spacing: 2px;
+  font-weight: 500;
 }
 .nav-link img {
   width: 30px;
@@ -107,6 +136,7 @@ header {
     align-items: center;
     justify-content: center;
     z-index: 100;
+    margin-top: 20px;
   }
 
   .nav-link li {
@@ -135,7 +165,6 @@ header {
 .container {
   height: 100%;
   width: 100%;
-  margin-top: 60px;
   margin-bottom: 60px;
   display: flex;
   flex-direction: column;
@@ -337,6 +366,9 @@ footer {
 }
 
 @media (max-width: 900px) {
+  .logo h1 {
+    display: none;
+  }
   .footer-column p {
     font-size: 12px;
   }
@@ -358,6 +390,14 @@ footer {
 }
 
 @media (max-width: 768px) {
+  marquee {
+    font-size: 10px;
+  }
+  .logo h1 {
+    display: block;
+    font-size: 10px;
+    width: 125px;
+  }
   .footer-social-media svg:hover {
     transform: none;
   }
