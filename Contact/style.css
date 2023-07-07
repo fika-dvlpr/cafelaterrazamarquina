@@ -250,11 +250,17 @@ main {
 .form-container {
   display: flex;
   justify-content: center;
+  width: 100%;
 }
 
 .form-row {
   display: flex;
-  gap: 1rem;
+  justify-content: space-between;
+  gap: 0.5rem;
+  width: 100%;
+}
+.form-row div {
+  width: 100%;
 }
 
 .col input {
@@ -262,12 +268,14 @@ main {
   border-radius: 6px;
   border: 1px solid black;
   margin-bottom: 1rem;
+  width: 100%;
 }
 
 .message-box {
-  padding: 5px 19.4rem 5rem 12px;
+  padding: 5px 12px;
   border-radius: 6px;
   margin-bottom: 0.6rem;
+  width: 100%;
 }
 
 .submit-button {
@@ -518,16 +526,6 @@ footer {
   .right-container {
     padding: 1.5rem;
   }
-
-  .col input {
-    padding: 5px 1rem 5px 12px;
-  }
-  .form-row {
-    justify-content: center;
-  }
-  .message-box {
-    padding: 5px 15.4rem 5rem 12px;
-  }
 }
 
 /* TABLET */
@@ -553,23 +551,12 @@ footer {
   }
   .col input {
     font-size: 12px;
-    padding: 5px 6rem 5px 12px;
   }
 
-  .message-box {
-    font-size: 12px;
-    padding: 5px 5.9rem 5rem 12px;
-  }
   .submit-button {
     font-size: 12px;
   }
-  .form-row {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 0;
-    transition: 0.5s;
-  }
+
   .col input {
     margin-bottom: 1rem;
   }
@@ -578,7 +565,7 @@ footer {
   }
 }
 
-@media (max-width: 530px) {
+@media (max-width: 550px) {
   .contact-phone-email {
     display: flex;
     flex-direction: column;
@@ -589,15 +576,12 @@ footer {
   }
 
   .col input {
-    font-size: 10px;
-    padding: 5px 4.5rem 5px 12px;
+    margin-bottom: 1rem;
   }
-  .submit-button {
-    font-size: 10px;
-  }
-  .message-box {
-    font-size: 10px;
-    padding: 5px 4.8rem 5rem 12px;
+  .form-row {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
   }
   .contact-container {
     width: 75%;
