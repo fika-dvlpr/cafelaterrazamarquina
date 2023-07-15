@@ -1,3 +1,3 @@
-# cafelaterrazamarquina
+# Cafe La Terraza Marquina
 
-# functional and responsive website
+# Full responsive and functional website
