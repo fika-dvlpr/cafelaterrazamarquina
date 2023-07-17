@@ -14,7 +14,7 @@ img {
   width: 100%;
 }
 section {
-  padding: 7rem 7.5rem;
+  padding: 0 7.5rem;
 }
 body {
   background-color: #fff;
@@ -70,6 +70,7 @@ header {
   color: #402218;
   letter-spacing: 2px;
   font-weight: 500;
+  line-height: normal;
 }
 .nav-link img {
   width: 30px;
@@ -203,12 +204,13 @@ header {
   letter-spacing: 4px;
   padding-bottom: 1rem;
   margin-top: 1rem;
+  line-height: normal;
 }
 
 .home-button {
   font-size: 14px;
   font-weight: bold;
-  background-color: saddlebrown;
+  background-color: #8b4513;
   color: #f8f4ea;
   text-decoration: none;
   padding: 6px 30px;
@@ -236,139 +238,6 @@ header {
   font-family: "Dancing Script", cursive;
   letter-spacing: 2px;
   color: #fff;
-}
-
-/* OTHER BUSINESS */
-.other-business {
-  width: 100%;
-  height: 100vh;
-  max-width: 1440px;
-  margin-left: auto;
-  margin-right: auto;
-  max-height: 700px;
-  padding-top: 0;
-}
-.other-business-line {
-  width: 80%;
-  border: 0;
-  border-bottom: 2px solid #402218;
-  margin: auto;
-}
-.hero h1 {
-  font-size: 16px;
-  display: flex;
-  justify-content: center;
-  margin-top: 80px;
-}
-.box-container {
-  display: flex;
-  justify-content: center;
-  vertical-align: auto;
-  padding-top: 4rem;
-  gap: 8rem;
-}
-.card {
-  width: 260px;
-  height: 320px;
-  background: white;
-  border: 1px solid #402218;
-  padding: 10px;
-  border-radius: 8px;
-}
-.card-image {
-  width: 100%;
-  height: 60%;
-  border-radius: 7px 7px 0 0;
-  overflow: hidden;
-}
-
-.card-image img {
-  object-fit: cover;
-  height: 100%;
-  transition: transform 1s;
-}
-
-.card-image:hover img {
-  transform: scale(1.4);
-}
-.card-button {
-  font-size: 12px;
-  background-color: #dd9445;
-  color: white;
-  display: flex;
-  justify-content: center;
-  width: 90px;
-  margin: 8px 0px;
-  padding: 5px 0;
-  cursor: pointer;
-  border-radius: 12px;
-}
-.card-button:hover {
-  background-color: #ebae6e;
-  color: white;
-}
-.card-hero {
-  font-size: 15px;
-  font-weight: 600;
-  padding: 10px 0px 0;
-}
-.card-text {
-  text-align: justify;
-  font-size: 14px;
-  color: black;
-  padding: 8px 0px 0;
-}
-.card-2 {
-  width: 260px;
-  height: 320px;
-  background: white;
-  border: 1px solid #402218;
-  padding: 10px;
-  border-radius: 8px;
-}
-.card-button-2 {
-  font-size: 12px;
-  background-color: #dd9445;
-  color: white;
-  display: flex;
-  justify-content: center;
-  width: 90px;
-  margin: 8px 0px;
-  padding: 5px 0;
-  cursor: pointer;
-  border-radius: 12px;
-}
-.card-button-2:hover {
-  background-color: #ebae6e;
-  color: white;
-}
-.card-image-2 {
-  width: 100%;
-  height: 60%;
-  border-radius: 7px 7px 0 0;
-  transition: transform 0.5s;
-  overflow: hidden;
-}
-
-.card-image-2 img {
-  object-fit: cover;
-  height: 100%;
-  transition: transform 1s;
-}
-
-.card-image-2:hover img {
-  transform: scale(1.4);
-}
-.card-hero-2 {
-  font-size: 15px;
-  font-weight: 600;
-  padding: 10px 0px 0;
-}
-.card-text-2 {
-  text-align: justify;
-  font-size: 14px;
-  color: black;
-  padding: 8px 0px 0;
 }
 
 /* FOOTER */
@@ -599,52 +468,6 @@ footer {
     font-size: 2rem;
     width: 600px;
   }
-
-  .box-container {
-    gap: 4rem;
-    transition: 0.5s;
-  }
-  .card-hero {
-    font-size: 13px;
-  }
-  .card-hero-2 {
-    font-size: 13px;
-  }
-  .card-text {
-    font-size: 12px;
-  }
-  .card-text-2 {
-    font-size: 12px;
-  }
-}
-
-/* LAPTOP SMALL */
-@media (max-width: 970px) {
-  .box-container {
-    gap: 3rem;
-  }
-
-  .customer-img-name {
-    margin-bottom: 6px;
-  }
-  .customer-comments {
-    font-size: 11px;
-    letter-spacing: 0;
-    transition: 0.5s;
-  }
-  .customer-img-name img {
-    width: 45px;
-    height: 45px;
-    transition: 0.5s;
-  }
-  .card {
-    width: 240px;
-    height: 300px;
-  }
-  .card-2 {
-    width: 240px;
-    height: 300px;
-  }
 }
 
 /* TABLET */
@@ -652,9 +475,7 @@ footer {
   .footer-social-media svg:hover {
     transform: none;
   }
-  .box-container {
-    padding-top: 5rem;
-  }
+
   .home {
     padding: 0 5rem;
   }
@@ -668,58 +489,7 @@ footer {
   .container-quotes p {
     font-size: 14px;
   }
-  .reviews-container {
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-    align-items: center;
-    transition: 0.5s;
-    margin-top: 2rem;
-  }
-  .card-image:hover img,
-  .card-image-2:hover img {
-    transform: none;
-  }
-  .customer-1 {
-    width: 300px;
-    height: 120px;
-  }
-  .customer-1:hover {
-    transform: none;
-  }
-  .customer-img-name img {
-    width: 40px;
-    height: 40px;
-    transition: 0.5s;
-  }
-  .customer-img-name {
-    margin-bottom: 4px;
-  }
-  .customer-name-review {
-    font-size: 8px;
-  }
 
-  .card,
-  .card-2 {
-    width: 200px;
-    height: 280px;
-  }
-
-  .card-button,
-  .card-button-2 {
-    font-size: 11px;
-    width: 80px;
-  }
-
-  .card-hero,
-  .card-hero-2 {
-    font-size: 11px;
-  }
-
-  .card-text,
-  .card-text-2 {
-    font-size: 11px;
-  }
   .home-content h1 {
     font-size: 1.5rem;
     width: 500px;
@@ -729,66 +499,17 @@ footer {
   }
 
   section {
-    padding-left: 6rem;
-    padding-right: 6rem;
-  }
-  .customer-reviews {
-    height: 80vh;
-  }
-  .other-business {
-    padding-top: 2rem;
+    padding: 0 6rem;
   }
 }
 
 @media (max-width: 544px) {
-  .hero h1 {
-    margin-top: 40px;
-  }
   .home {
     padding: 0 3rem;
   }
-  .customer-1 {
-    width: 280px;
-    height: 100px;
-    padding: 8px;
-  }
-  .customer-img-name img {
-    width: 30px;
-    height: 30px;
-  }
-  .customer-img-name {
-    margin: 0;
-    height: 35px;
-  }
-  .customer-comments {
-    font-size: 10px;
-  }
 
-  .card-text,
-  .card-text-2 {
-    padding: 6px 0 0;
-    transition: 0.5s;
-  }
-  .card,
-  .card-2 {
-    padding: 6px;
-    transition: 0.5s;
-    width: 180px;
-    height: 260px;
-  }
-  .box-container {
-    gap: 2rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0;
-    margin: 2rem 0 4rem 0;
-  }
-  .other-business {
-    height: 100%;
-  }
   section {
-    padding: 0rem 4rem;
+    padding: 0 4rem;
   }
 }
 
