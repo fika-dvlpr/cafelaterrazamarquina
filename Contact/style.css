@@ -173,7 +173,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 7rem 0;
+  padding: 6rem 0;
 }
 
 .contact-container {
@@ -269,6 +269,7 @@ main {
   border: 1px solid black;
   margin-bottom: 1rem;
   width: 100%;
+  font-size: 14px;
 }
 
 .message-box {
@@ -276,6 +277,7 @@ main {
   border-radius: 6px;
   margin-bottom: 0.6rem;
   width: 100%;
+  font-size: 14px;
 }
 
 .submit-button {
@@ -284,6 +286,7 @@ main {
   background-color: saddlebrown;
   color: #fff;
   cursor: pointer;
+  font-size: 14px;
 }
 
 .submit-button:hover {
@@ -539,33 +542,21 @@ footer {
   }
   .right-container {
     padding: 1rem;
-  }
-  .contact-header h1 {
-    font-size: 1rem;
-  }
-  .contact-header p {
-    font-size: 12px;
-  }
-  .contact-phone-email {
-    font-size: 12px;
-  }
-  .col input {
-    font-size: 12px;
+    width: 100%;
   }
 
-  .submit-button {
-    font-size: 12px;
+  .contact-header h1 {
+    font-size: 18px;
+  }
+
+  .contact-header p {
+    text-align: center;
+    font-size: 14px;
   }
 
   .col input {
     margin-bottom: 1rem;
   }
-  .contact-phone-email {
-    gap: 2.5rem;
-  }
-}
-
-@media (max-width: 550px) {
   .contact-phone-email {
     display: flex;
     flex-direction: column;
@@ -574,7 +565,9 @@ footer {
     margin-bottom: 1rem;
     transition: 0.5s;
   }
+}
 
+@media (max-width: 550px) {
   .col input {
     margin-bottom: 1rem;
   }
