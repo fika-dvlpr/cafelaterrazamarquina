@@ -201,7 +201,6 @@ main {
   max-height: 1000px;
   background: url("../Images/menu-bg-1.jpg") no-repeat top;
   background-size: cover;
-  background-attachment: fixed;
   box-shadow: inset 0px -11px 10px -9px #464646;
 }
 .main-container {
@@ -625,9 +624,6 @@ footer {
   .menu-container {
     width: 290px;
     padding: 0;
-  }
-  .menu-container h3 {
-    font-size: 12px;
   }
   .fao,
   .dao {

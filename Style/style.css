@@ -170,7 +170,6 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
   width: 100%;
   max-height: 1300px;
   height: 95vh;
