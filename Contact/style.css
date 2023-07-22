@@ -226,6 +226,7 @@ main {
   text-align: justify;
   margin-bottom: 1rem;
   font-size: 14px;
+  letter-spacing: 1px;
 }
 
 .contact-phone-email {
