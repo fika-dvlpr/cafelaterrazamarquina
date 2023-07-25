@@ -672,8 +672,7 @@ video {
   padding-bottom: 0.25rem;
 }
 
-.py-12 {
-  padding-top: 3rem;
+.pb-12 {
   padding-bottom: 3rem;
 }
 
@@ -683,6 +682,10 @@ video {
 
 .pb-8 {
   padding-bottom: 2rem;
+}
+
+.pt-16 {
+  padding-top: 4rem;
 }
 
 .pt-2 {
@@ -695,14 +698,6 @@ video {
 
 .pt-8 {
   padding-top: 2rem;
-}
-
-.pb-12 {
-  padding-bottom: 3rem;
-}
-
-.pt-16 {
-  padding-top: 4rem;
 }
 
 .text-center {
@@ -792,11 +787,6 @@ video {
 
   .md\:gap-28 {
     gap: 7rem;
-  }
-
-  .md\:py-16 {
-    padding-top: 4rem;
-    padding-bottom: 4rem;
   }
 
   .md\:py-20 {
