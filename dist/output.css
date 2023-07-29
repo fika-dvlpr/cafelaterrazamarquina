@@ -639,6 +639,19 @@ video {
   border-top-right-radius: 6rem;
 }
 
+.border-2 {
+  border-width: 2px;
+}
+
+.border {
+  border-width: 1px;
+}
+
+.border-primary {
+  --tw-border-opacity: 1;
+  border-color: rgb(64 34 24 / var(--tw-border-opacity));
+}
+
 .bg-saddlebrown {
   --tw-bg-opacity: 1;
   background-color: rgb(139 69 19 / var(--tw-bg-opacity));
@@ -737,6 +750,10 @@ video {
 
 .tracking-wider {
   letter-spacing: 0.05em;
+}
+
+.tracking-widest {
+  letter-spacing: 0.1em;
 }
 
 .text-primary {
