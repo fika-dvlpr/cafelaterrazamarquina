@@ -1,3 +1,3 @@
 # Cafe La Terraza Marquina
 
-# Full responsive and functional website
+# Completely responsive and functioning website
