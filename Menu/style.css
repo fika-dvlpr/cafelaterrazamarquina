@@ -67,6 +67,7 @@ header {
   color: #402218;
   letter-spacing: 2px;
   font-weight: 500;
+  line-height: normal;
 }
 .nav-link img {
   width: 30px;
@@ -457,6 +458,7 @@ main {
   flex-wrap: wrap;
   margin: auto;
   width: 75%;
+  line-height: normal;
 }
 
 footer {

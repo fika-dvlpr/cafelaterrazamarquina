@@ -199,7 +199,7 @@ header {
   font-size: 2.4rem;
   font-weight: bold;
   font-family: "Unbounded", cursive;
-  width: 600px;
+  width: 500px;
   color: white;
   letter-spacing: 4px;
   padding-bottom: 1rem;
@@ -238,6 +238,11 @@ header {
   font-family: "Dancing Script", cursive;
   letter-spacing: 2px;
   color: #fff;
+}
+
+/* FOODS AND DRINKS HEADER */
+.font-cursive {
+  font-family: cursive;
 }
 
 /* FOOTER */
