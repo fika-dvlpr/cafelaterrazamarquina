@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  scroll-padding-top: 7rem;
+  scroll-padding-top: 6.5rem;
   scroll-behavior: smooth;
   list-style: none;
 }
@@ -171,44 +171,43 @@ main button {
   padding: 5px 30px;
   font-size: 15px;
   border: none;
-  border-radius: 6px;
+  border-radius: 15px;
   letter-spacing: 2px;
   background-color: saddlebrown;
   color: #fff;
   cursor: pointer;
 }
 main p {
-  color: #f8f4ea;
-  margin-bottom: 12px;
+  color: #402218;
   font-size: 13px;
 }
 main h1 {
   font-size: 2rem;
   letter-spacing: 10px;
-  color: #f8f4ea;
+  color: #402218;
   text-transform: uppercase;
-  margin-bottom: 12px;
+  margin-bottom: 6px;
 }
 
 .main-text {
-  margin-left: 10px;
-  display: none;
+  margin-bottom: 2rem;
+  width: 500px;
 }
 
 main {
-  height: 100vh;
+  height: 88vh;
   width: 100%;
   padding: 0 7.5rem;
-  max-height: 1000px;
-  background: url("../Images/menu-bg-1.jpg") no-repeat top;
+  max-height: 1300px;
+  background: url("../Images/menu-illustration.png") no-repeat top;
   background-size: cover;
+  background-position: left;
   box-shadow: inset 0px -11px 10px -9px #464646;
 }
 .main-container {
   max-width: 1440px;
   margin: auto;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  display: flex;
   align-items: center;
   width: 100%;
   height: 100%;
@@ -544,11 +543,21 @@ footer {
     padding: 0 5rem;
     transition: 0.5s;
   }
+  main {
+    padding: 0 5rem;
+  }
+  main button {
+    padding: 4px 20px;
+    font-size: 14px;
+  }
 }
 
 @media (max-width: 652px) {
   .footer-column {
     flex-basis: 30%;
+  }
+  main h1 {
+    font-size: 1.5rem;
   }
 }
 
@@ -569,11 +578,17 @@ footer {
     padding: 0 3rem;
     transition: 0.5s;
   }
+  main {
+    padding: 0 3rem;
+  }
 }
 @media (max-width: 425px) {
   header {
     padding: 0 2rem;
     transition: 0.5s;
+  }
+  main {
+    padding: 0 2rem;
   }
 }
 
