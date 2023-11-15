@@ -199,7 +199,7 @@ main {
   width: 100%;
   padding: 0 7.5rem;
   max-height: 1300px;
-  background: url("../Images/menu-illustration.png") no-repeat top;
+  background: url("../Images/menu-bg.png") no-repeat top;
   background-size: cover;
   background-position: left;
   box-shadow: inset 0px -11px 10px -9px #464646;
