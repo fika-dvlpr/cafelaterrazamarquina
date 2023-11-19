@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  scroll-padding-top: 6.5rem;
+  scroll-padding-top: 3.5rem;
   scroll-behavior: smooth;
   list-style: none;
 }
@@ -11,9 +11,6 @@ html {
 }
 img {
   width: 100%;
-}
-section {
-  padding: 7rem 7.5rem;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -222,135 +219,6 @@ main {
 .main-illustration {
   display: flex;
   justify-content: center;
-  display: none;
-}
-
-/* MENU LIST */
-
-.menu-list-link a:hover {
-  border-bottom: 3px solid #402218;
-}
-
-.menu-list-link a {
-  border-bottom: 3px solid transparent;
-  transition: all 0.5s ease;
-  text-decoration: none;
-  color: #000;
-  letter-spacing: 1px;
-  padding-bottom: 8px;
-  font-size: 15px;
-}
-
-.menu-list-link ul {
-  width: 100%;
-  display: flex;
-  gap: 2.5rem;
-}
-
-.menu-list-link {
-  padding-bottom: 2.2rem;
-  border-bottom: 2px solid #000;
-}
-
-.menu-section {
-  width: 100%;
-  max-width: 1200px;
-  background-color: #fff;
-  margin: auto;
-  padding: 3rem 7.5rem;
-}
-
-/* MENU-LIST */
-.menu-name {
-  text-align: left;
-}
-
-.menu-list ul li {
-  margin-bottom: 1rem;
-}
-
-.menu-star-price {
-  display: flex;
-  gap: 2rem;
-}
-
-.menu-list {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-size: 15px;
-}
-
-.menu-container h3 {
-  font-size: 1rem;
-  letter-spacing: 4px;
-  margin-bottom: 3rem;
-}
-
-.menu-container {
-  width: 400px;
-  text-align: center;
-  margin: auto;
-  margin-top: 3rem;
-  padding: 1rem;
-  position: relative;
-}
-
-/* HOT-COFFEE SIZES */
-.grande-hc {
-  position: absolute;
-  top: 45px;
-  right: 7px;
-  width: 44px;
-  font-size: 10px;
-  font-weight: bold;
-  text-align: center;
-}
-.tall-hc {
-  position: absolute;
-  top: 45px;
-  right: 67px;
-  font-size: 10px;
-  font-weight: bold;
-  width: 34px;
-}
-
-/* SODA-BASE SIZES */
-.soda-base-drinks {
-  position: absolute;
-  font-size: 9px;
-  top: 38px;
-  left: 128px;
-  letter-spacing: 1px;
-}
-.grande-fb {
-  position: absolute;
-  top: 45px;
-  right: 4px;
-  width: 44px;
-  font-size: 10px;
-  font-weight: bold;
-  text-align: center;
-}
-.tall-fb {
-  position: absolute;
-  top: 45px;
-  right: 59px;
-  font-size: 10px;
-  font-weight: bold;
-  width: 34px;
-}
-.fao,
-.dao {
-  font-size: 16px;
-  font-weight: bold;
-}
-/* OPTION MENU */
-#optionmenu {
-  display: none;
-}
-
-.option-menu-list {
   display: none;
 }
 
@@ -592,110 +460,9 @@ footer {
   }
 }
 
-/* LAPTOP */
-@media (max-width: 1082px) {
-  .menu-list-link a {
-    font-size: 13px;
-  }
-  .menu-list-link ul {
-    gap: 2rem;
-  }
-}
-
-@media (max-width: 924px) {
-  .menu-list-link ul {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1.5rem;
-  }
-
-  .menu-container h3 {
-    font-size: 14px;
-  }
-  .menu-name {
-    font-size: 14px;
-  }
-  .menu-star-price {
-    font-size: 14px;
-  }
-  .grande-hc,
-  .tall-hc,
-  .grande-fb,
-  .tall-fb {
-    font-size: 8px;
-  }
-  .soda-base-drinks {
-    left: 134px;
-  }
-}
-
 /* TABLET */
 @media (max-width: 768px) {
   .footer-social-media svg:hover {
     transform: none;
-  }
-  .menu-list-link a {
-    font-size: 12px;
-  }
-  .menu-container {
-    width: 290px;
-    padding: 0;
-  }
-  .fao,
-  .dao {
-    font-size: 14px;
-  }
-  .menu-name {
-    font-size: 12px;
-  }
-  .menu-star-price {
-    font-size: 12px;
-  }
-  .grande-hc {
-    top: 35px;
-    right: -10px;
-  }
-  .tall-hc {
-    top: 35px;
-    right: 42px;
-  }
-  .soda-base-drinks {
-    left: 86px;
-    top: 18px;
-  }
-  .grande-fb {
-    top: 35px;
-    right: -14px;
-  }
-  .tall-fb {
-    top: 35px;
-    right: 37px;
-  }
-  .menu-section {
-    padding: 3rem 5rem;
-  }
-}
-
-@media (max-width: 544px) {
-  .menu-section {
-    padding: 3rem 3rem;
-  }
-}
-
-/* MOBILE */
-
-@media (max-width: 499px) {
-  .menu-container {
-    width: 260px;
-  }
-  .menu-name {
-    font-size: 10px;
-  }
-  .menu-star-price {
-    font-size: 10px;
-  }
-  .soda-base-drinks {
-    left: 74px;
   }
 }
