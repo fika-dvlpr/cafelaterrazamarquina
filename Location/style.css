@@ -221,6 +221,10 @@ main {
   margin: auto;
 }
 
+.main-highlight {
+  font-weight: bold;
+}
+
 /* FOOTER */
 .copyright {
   text-align: center;
@@ -559,6 +563,7 @@ footer {
     height: auto;
     padding: 20px;
     transition: 0.5s;
+    gap: 1.5rem;
   }
   .main-left,
   .main-right {
