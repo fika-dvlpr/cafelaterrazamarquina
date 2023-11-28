@@ -1223,6 +1223,10 @@ input:checked + .toggle-bg {
   height: h-800px;
 }
 
+.h-\[600px\] {
+  height: 600px;
+}
+
 .max-h-\[800px\] {
   max-height: 800px;
 }
@@ -1479,6 +1483,10 @@ input:checked + .toggle-bg {
 
 .border-t-8 {
   border-top-width: 8px;
+}
+
+.border-b-2 {
+  border-bottom-width: 2px;
 }
 
 .border-blue-600 {
